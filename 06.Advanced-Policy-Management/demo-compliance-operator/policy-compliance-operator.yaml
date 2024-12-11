@@ -73,7 +73,7 @@ metadata:
   name: policy-comp-operator-binding
   namespace: rhacm-policies
 placementRef:
-  name: dev-clusters
+  name: prod-clusters
   kind: PlacementRule
   apiGroup: apps.open-cluster-management.io
 subjects:
